@@ -1,0 +1,318 @@
+[
+  {
+    "id": "bach",
+    "nameZh": "大卫·巴赫",
+    "nameEn": "David Bach",
+    "tagline": "自动化理财 · 拿铁因素 · 习惯",
+    "mentalModels": [
+      "模型 1: 系统胜过意志力（The Automation Principle）",
+      "模型 2: 隐形消费透镜（The Latte Factor）",
+      "模型 3: 所有者思维（Owner, Not Consumer — Grandma Rose's Framework）",
+      "模型 4: 价值观先行（Values-First Financial Planning）",
+      "模型 5: 现在就活（Live Rich Now / Radical Sabbatical）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "collins",
+    "nameZh": "柯林斯",
+    "nameEn": "JL Collins",
+    "tagline": "简单理财 · 指数基金 · 自由储备金",
+    "mentalModels": [
+      "文明乐观主义（The Market Always Goes Up）",
+      "激进简化主义（Simple > Optimal）",
+      "F-You Money（自由即目的）",
+      "行为差距（Execution > Optimization）",
+      "自清洁不对称性（Loss is Bounded, Gain is Unbounded）",
+      "金融行业利益冲突（Complexity is the Tool of Extraction）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "duan-yongping",
+    "nameZh": "段永平",
+    "tagline": "本分 · 不做清单 · 平常心",
+    "mentalModels": [
+      "本分（Benfen）—— 回到事物本源做对的事情",
+      "不为清单（Stop Doing List）—— Via Negativa",
+      "敢为天下后，后中争先",
+      "买股票就是买公司",
+      "能力圈（Circle of Competence）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "feynman",
+    "nameZh": "费曼",
+    "nameEn": "Richard Feynman",
+    "tagline": "第一性原理 · 学习方法 · 简化复杂",
+    "mentalModels": [
+      "命名 ≠ 理解",
+      "反自欺原则",
+      "不确定性是力量",
+      "具象化思考",
+      "深度游戏"
+    ],
+    "heuristics": [
+      "货物崇拜检测",
+      "演示 > 论证",
+      "现实优先于叙事",
+      "一次性关闭选项",
+      "从具体到一般",
+      "12个问题过滤器",
+      "直接验证",
+      "反身份固化"
+    ]
+  },
+  {
+    "id": "ilya",
+    "nameZh": "伊利亚",
+    "nameEn": "Ilya Sutskever",
+    "tagline": "AI 哲学思辨 · 长程视角",
+    "mentalModels": [
+      "压缩即理解 (Compression = Understanding)",
+      "规模是工具而非原则 (Scale as Instrument, Not Principle)",
+      "安全-能力纠缠 (Safety-Capability Entanglement)",
+      "超级学习者而非全知数据库 (The Superintelligent Learner)",
+      "沉默是信息建筑 (Silence as Information Architecture)",
+      "研究审美 (Research Aesthetics)"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "jobs",
+    "nameZh": "乔布斯",
+    "nameEn": "Steve Jobs",
+    "tagline": "产品克制 · 美学 · 直觉",
+    "mentalModels": [
+      "聚焦即说不（Focus = Saying No）",
+      "端到端控制（The Whole Widget）",
+      "连点成线（Connecting the Dots）",
+      "死亡过滤器（Death as Decision Tool）",
+      "现实扭曲力场（Reality Distortion Field）",
+      "技术与人文的交汇（Technology × Liberal Arts）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "karpathy",
+    "nameZh": "卡帕西",
+    "nameEn": "Andrej Karpathy",
+    "tagline": "AI 工程实用主义 · 学习方法",
+    "mentalModels": [
+      "模型一：Software X.0 范式思维",
+      "模型二：构建即理解",
+      "模型三：LLM = 召唤的幽灵",
+      "模型四：March of Nines 工程现实主义",
+      "模型五：锯齿状智能（Jagged Intelligence）",
+      "模型六：Iron Man套装 > Iron Man机器人"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "lidan",
+    "nameZh": "李诞",
+    "tagline": "钝感 · 解构 · 人间不值得",
+    "mentalModels": [
+      "消解主义",
+      "坦诚即目的",
+      "幻灭-实用循环",
+      "创作是苦力活",
+      "人是目的不是手段",
+      "还原而非表演"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "mrbeast",
+    "nameZh": "野兽先生",
+    "nameEn": "Jimmy Donaldson",
+    "tagline": "内容创造 · 注意力工程 · 极致投入",
+    "mentalModels": [
+      "CTR × AVD 方程式",
+      "零无聊时刻（No Dull Moments）",
+      "阶梯递进（Stair-Stepping）",
+      "简单概念×极端执行",
+      "全额再投资飞轮",
+      "创意省钱（Creativity Saves Money）"
+    ],
+    "heuristics": [
+      "一句话测试",
+      "自点击测试",
+      "100%再投资原则",
+      "前30秒法则",
+      "3分钟重参与",
+      "A-Player三标准",
+      "标题-缩略图互补原则",
+      "传达 > 内容"
+    ]
+  },
+  {
+    "id": "munger",
+    "nameZh": "查理·芒格",
+    "nameEn": "Charlie Munger",
+    "tagline": "多元思维模型 · 投资判断 · 反愚蠢",
+    "mentalModels": [
+      "多元思维模型 / Latticework of Mental Models",
+      "逆向思考 / Inversion",
+      "Lollapalooza效应",
+      "能力圈 + 意见资格制",
+      "激励机制决定一切"
+    ],
+    "heuristics": [
+      "逆向切入",
+      "三筐分类法",
+      "激励诊断",
+      "反确认偏误",
+      "坐在屁股上",
+      "葡萄干与粪便法则",
+      "配得上法则",
+      "愚蠢清单"
+    ]
+  },
+  {
+    "id": "musk",
+    "nameZh": "马斯克",
+    "nameEn": "Elon Musk",
+    "tagline": "第一性原理 · 大胆下注 · 物理直觉",
+    "mentalModels": [
+      "渐近极限法（Asymptotic Limit Thinking）",
+      "五步算法（The Algorithm）",
+      "存在主义锚定（Existential Anchoring）",
+      "垂直整合即物理必然（Vertical Integration as Physics）",
+      "快速迭代 > 完美计划（Iterate Fast, Fail Fast）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "naval",
+    "nameZh": "纳瓦尔",
+    "nameEn": "Naval Ravikant",
+    "tagline": "杠杆 · 特定知识 · 长期主义",
+    "mentalModels": [
+      "杠杆思维（Leverage）",
+      "特定知识（Specific Knowledge）",
+      "欲望即合同（Desire as Contract with Unhappiness）",
+      "重新定义术（Redefine the Word, the Conclusion Follows）",
+      "痛苦→系统重构（Pain to Systemic Solution）"
+    ],
+    "heuristics": [
+      "无需许可原则",
+      "日历测试",
+      "纠结即否定",
+      "手册测试",
+      "党派测试",
+      "欲望审计",
+      "创伤转化原则",
+      "行为优先原则"
+    ]
+  },
+  {
+    "id": "pg",
+    "nameZh": "保罗·格雷厄姆",
+    "nameEn": "Paul Graham",
+    "tagline": "创业第一性原理 · 写作 · 黑客气质",
+    "mentalModels": [
+      "Writing = Thinking（写作即思考）",
+      "Taste as Cognitive Instrument（品味即认知工具）",
+      "Iterative Discovery（迭代发现）",
+      "Superlinear Returns（超线性回报）",
+      "Independent Thinking as Survival（独立思考即生存）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "robbins",
+    "nameZh": "托尼·罗宾斯",
+    "nameEn": "Tony Robbins",
+    "tagline": "心理动力 · 行动驱动 · 情绪管理",
+    "mentalModels": [
+      "模型 1: The Triad — 状态决定一切",
+      "模型 2: Six Human Needs — 行为背后的六大驱动力",
+      "模型 3: Modeling Excellence — 成功可以被逆向工程",
+      "模型 4: Blueprint vs. Life Conditions — 痛苦的来源",
+      "模型 5: Identity as the Highest Lever — 身份认同是最深层的改变杠杆",
+      "模型 6: Achievement vs. Fulfillment — 成就与幸福是两回事"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "sun-yuchen",
+    "nameZh": "孙宇晨",
+    "tagline": "营销直觉 · 加密 · 高敢度",
+    "mentalModels": [
+      "注意力套利（Attention Arbitrage）",
+      "叙事覆盖（Narrative Override）",
+      "身份杠杆（Identity Leverage）",
+      "场景切换矩阵（Context Switching）",
+      "快速复制+品牌溢价（Copy, Then Brand）",
+      "金钱万能钥匙（Money as Universal Solvent）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "taleb",
+    "nameZh": "塔勒布",
+    "nameEn": "Nassim Taleb",
+    "tagline": "反脆弱 · 黑天鹅 · 不对称风险",
+    "mentalModels": [
+      "非对称风险思维",
+      "反脆弱偏好",
+      "Skin in the Game检验",
+      "林迪效应筛选",
+      "Via Negativa（减法优先）",
+      "领域特异性"
+    ],
+    "heuristics": [
+      "预防原则：不确定时行动，而非等待",
+      "杠铃策略：极端保守 + 极端冒险",
+      "遍历性检验：会破产吗？",
+      "火鸡问题：过去的稳定不能预测未来",
+      "少数派规则：找到那不妥协的3%",
+      "框架重置：不回答烂问题，重新定义问题",
+      "绿木交易员原则：实践知识 > 理论知识",
+      "凸性试错：保留上行，限制下行"
+    ]
+  },
+  {
+    "id": "trump",
+    "nameZh": "特朗普",
+    "nameEn": "Donald Trump",
+    "tagline": "强势叙事 · 谈判 · 注意力",
+    "mentalModels": [
+      "万物皆交易（Everything Is A Deal）",
+      "有效夸大（Truthful Hyperbole）",
+      "不可预测性即权力（Unpredictability As Power）",
+      "受害者叙事即燃料（Victimhood As Fuel）",
+      "零和赢（Zero-Sum Winning）",
+      "观众第一，现实第二（Audience First, Reality Second）"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "zhang-yiming",
+    "nameZh": "张一鸣",
+    "tagline": "字节系工程师创业 · 延迟满足 · 系统思维",
+    "mentalModels": [
+      "模型①：延迟满足感是认知边界，不是道德品质",
+      "模型②：把表象问题投影到高维简单问题",
+      "模型③：算法是工具，同理心才是根（人才过拟合）",
+      "模型④：负规模效应与Context not Control",
+      "模型⑤：逃逸平庸的重力"
+    ],
+    "heuristics": []
+  },
+  {
+    "id": "zhangxuefeng",
+    "nameZh": "张雪峰",
+    "tagline": "实用主义 · 教育/职业选择 · 反鸡汤",
+    "mentalModels": [
+      "社会筛子论",
+      "选择 > 努力",
+      "就业倒推法",
+      "阶层现实主义",
+      "争议即传播"
+    ],
+    "heuristics": []
+  }
+]

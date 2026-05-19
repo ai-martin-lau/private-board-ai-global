@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: ui-sans-serif, system-ui, -apple-system, "PingFang SC",
+      "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-neutral-50 text-neutral-900;
+  }
+
+  ::selection {
+    @apply bg-amber-200;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-neutral-900 px-5 py-2.5
+      text-sm font-medium text-white transition hover:bg-neutral-700
+      focus:outline-none focus:ring-2 focus:ring-neutral-400 focus:ring-offset-2
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm
+      font-medium text-neutral-700 transition hover:bg-neutral-100;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-neutral-200 bg-white px-3 py-2 text-sm
+      transition focus:border-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-200;
+  }
+
+  .card {
+    @apply rounded-xl bg-white p-6 shadow-sm ring-1 ring-neutral-200/60;
+  }
+}
+
+@layer utilities {
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in {
+    animation: fade-in 300ms ease-out;
+  }
+}
