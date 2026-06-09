@@ -139,3 +139,7 @@ npm run test:watch   # watch tests
 重大な意思決定の前に、自分の前提に異議を唱えてほしい人々のために。
 
 強い視点がぶつかり合うときに、よりよく考えられる人々のために。
+
+## スター推移
+
+[![スター推移グラフ](https://api.star-history.com/svg?repos=ai-martin-lau/private-board-ai-global&type=Date)](https://star-history.com/#ai-martin-lau/private-board-ai-global&Date)
