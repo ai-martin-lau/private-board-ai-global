@@ -139,3 +139,7 @@ npm run test:watch   # watch tests
 중대한 의사결정 전에 자신의 가정이 도전받기를 원하는 사람들을 위해.
 
 강한 관점들이 충돌할 때 더 잘 사고하는 사람들을 위해.
+
+## 스타 히스토리
+
+[![스타 히스토리 차트](https://api.star-history.com/svg?repos=ai-martin-lau/private-board-ai-global&type=Date)](https://star-history.com/#ai-martin-lau/private-board-ai-global&Date)
