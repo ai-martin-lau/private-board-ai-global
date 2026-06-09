@@ -139,3 +139,7 @@ Para quienes no quieren una única respuesta.
 Para quienes quieren que sus supuestos sean desafiados antes de una decisión trascendental.
 
 Para quienes piensan mejor cuando chocan perspectivas fuertes.
+
+## Historial de estrellas
+
+[![Gráfico de historial de estrellas](https://api.star-history.com/svg?repos=ai-martin-lau/private-board-ai-global&type=Date)](https://star-history.com/#ai-martin-lau/private-board-ai-global&Date)
