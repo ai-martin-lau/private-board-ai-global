@@ -139,3 +139,7 @@ People who do not want a single answer.
 People who want their assumptions challenged before a consequential decision.
 
 People who think better when strong perspectives collide.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ai-martin-lau/private-board-ai-global&type=Date)](https://star-history.com/#ai-martin-lau/private-board-ai-global&Date)
