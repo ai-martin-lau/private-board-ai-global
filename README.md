@@ -139,3 +139,7 @@ npm run test:watch   # 监听模式运行测试
 为那些希望在做出重大决策之前，让自己的假设受到挑战的人。
 
 为那些在强烈观点的碰撞中能更好思考的人。
+
+## Star 趋势
+
+[![Star 趋势图](https://api.star-history.com/svg?repos=ai-martin-lau/private-board-ai-global&type=Date)](https://star-history.com/#ai-martin-lau/private-board-ai-global&Date)
