@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="README_ZH.md">简体中文</a> · <a href="README.md">English</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_ES.md">Español</a>
+</p>
+
 # Private Board AI
 
 > Your private boardroom for hard decisions.
