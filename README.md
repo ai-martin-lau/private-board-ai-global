@@ -1,56 +1,56 @@
 <p align="center">
-  <a href="README_ZH.md">简体中文</a> · <a href="README.md">English</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_ES.md">Español</a>
+  <a href="README.md">简体中文</a> · <a href="README_EN.md">English</a> · <a href="README_JA.md">日本語</a> · <a href="README_KO.md">한국어</a> · <a href="README_ES.md">Español</a>
 </p>
 
 # Private Board AI
 
-> Your private boardroom for hard decisions.
+> 你处理艰难决策的私人董事会。
 
-Private Board AI turns a messy personal or strategic question into a structured boardroom debate. Instead of asking one AI for one smooth answer, you invite a panel of sharp minds to challenge each other, disagree, revise, and help you see the decision from multiple angles.
+Private Board AI 把一个纷乱的个人或战略问题，转化为一场结构化的董事会辩论。你不再是向单个 AI 索取一个圆滑的答案，而是邀请一群犀利的头脑彼此交锋、争论、修正，帮你从多个角度看清这个决策。
 
-It is not a fortune teller. It is not a life coach. It is a thinking room.
+它不是算命先生，也不是人生导师。它是一间思考的房间。
 
-## Why This Exists
+## 为什么要做这个
 
-Most important decisions are not blocked by lack of advice. They are blocked by unclear tradeoffs.
+大多数重要决策的瓶颈，不是缺乏建议，而是取舍不清。
 
-Should I quit my job? Start a company? Move countries? Take the safer path? Double down on a risky idea? Choose money, freedom, status, family, curiosity, or long-term optionality?
+我该辞职吗？要不要创业？要不要移居别国？走更稳妥的路？还是在一个有风险的想法上加倍投入？究竟该选钱、自由、地位、家庭、好奇心，还是长期的可选择性？
 
-Private Board AI helps by simulating the kind of conversation you wish you could have before making the call:
+Private Board AI 帮你模拟那种你希望在拍板之前能拥有的对话：
 
-- one person argues from downside protection
-- another pushes for ambition and leverage
-- another asks what game you are really playing
-- another challenges the hidden assumption
-- and you decide whether the board should keep debating
+- 有人从下行风险防护的角度据理力争
+- 有人推动你追求野心与杠杆
+- 有人追问你真正在玩的是哪一场游戏
+- 有人挑战你那个隐藏的假设
+- 而由你来决定董事会是否继续辩论
 
-## What It Does
+## 它能做什么
 
-- **Personal board selection**: answer a short profile, ask a question, and DeepSeek recommends a board for your situation.
-- **Adjustable lineup**: keep the recommended board, remove people, or choose your own panel.
-- **Real multi-round debate**: the board debates in separate rounds, not one fake monologue.
-- **Human-in-the-loop continuation**: after two rounds, you decide whether they continue. Your feedback becomes part of the next round.
-- **Chinese and English modes**: localized UI, prompts, examples, advisor names, and disclaimers.
-- **Local persistence**: profile, question, board selection, and debate progress are saved in browser storage.
-- **Bring your own DeepSeek key**: the app supports a user-provided API key stored only in the browser.
+- **个性化董事会推荐**：填写一份简短的画像，提出一个问题，DeepSeek 便会为你的处境推荐一组董事会成员。
+- **可调整的阵容**：保留推荐的董事会、移除其中的人，或自行挑选你的专家组。
+- **真正的多轮辩论**：董事会分多轮展开辩论，而非一段虚假的独白。
+- **人在回路的续辩机制**：两轮之后，由你决定他们是否继续。你的反馈会成为下一轮辩论的一部分。
+- **中英文双模式**：界面、提示词、示例、顾问姓名和免责声明均已本地化。
+- **本地持久化**：画像、问题、董事会选择和辩论进度都保存在浏览器存储中。
+- **自带 DeepSeek 密钥**：应用支持用户自行提供 API key，且仅存储在浏览器中。
 
-## How It Feels
+## 它用起来是什么感觉
 
-Ask:
+提问：
 
-> I am considering leaving my stable job to build a small AI product. I have savings for 12 months, but my family expects me to stay on a predictable path. What should I do?
+> 我正在考虑离开稳定的工作，去做一个小型 AI 产品。我有 12 个月的存款，但家人希望我走一条可预期的路。我该怎么办？
 
-Private Board AI does not simply answer. It convenes a board, lets them argue, then asks you:
+Private Board AI 不会直接给出答案。它会召集一个董事会，让他们辩论，然后反问你：
 
-> Should they continue? What should they consider next?
+> 他们应该继续吗？接下来他们应该考虑什么？
 
-You can add:
+你可以补充：
 
-> Continue, but focus more on downside risk and what I should validate before quitting.
+> 继续，但更聚焦于下行风险，以及我在辞职前应该验证些什么。
 
-The next debate round responds to that context.
+下一轮辩论便会回应这一上下文。
 
-## 中文简介
+## 简介
 
 Private Board AI 是一个“私人董事会”实验：你填写轻量用户画像，提出一个真实困惑，系统会推荐一组适合这个问题的董事成员，让他们围绕你的问题进行多轮辩论。
 
@@ -63,79 +63,79 @@ Private Board AI 是一个“私人董事会”实验：你填写轻量用户画
 - 如何在钱、自由、家庭、成长、声誉之间取舍
 - 一个商业、产品、职业或人生决策是否值得继续投入
 
-## Tech Stack
+## 技术栈
 
-| Layer | Choice |
+| 层级 | 选型 |
 |---|---|
-| Framework | Next.js 16 App Router + React 19 |
-| Language | TypeScript |
-| Styling | Tailwind CSS v4 |
-| LLM | DeepSeek via OpenAI-compatible API |
-| Selection model | `deepseek-v4-flash` |
-| Debate model | `deepseek-v4-flash` |
-| Streaming | Server-Sent Events |
-| Storage | Browser `localStorage` + `sessionStorage` |
-| Tests | Vitest |
+| 框架 | Next.js 16 App Router + React 19 |
+| 语言 | TypeScript |
+| 样式 | Tailwind CSS v4 |
+| 大模型 | DeepSeek via OpenAI-compatible API |
+| 推荐模型 | `deepseek-v4-flash` |
+| 辩论模型 | `deepseek-v4-flash` |
+| 流式传输 | Server-Sent Events |
+| 存储 | Browser `localStorage` + `sessionStorage` |
+| 测试 | Vitest |
 
-## Getting Started
+## 快速开始
 
 ```bash
 cp .env.local.example .env.local
 ```
 
-Add your DeepSeek API key:
+填入你的 DeepSeek API key：
 
 ```env
 DEEPSEEK_API_KEY=sk-xxx
 ```
 
-Install dependencies and run locally:
+安装依赖并在本地运行：
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open:
+打开：
 
 ```text
 http://localhost:3000
 ```
 
-## Scripts
+## 脚本命令
 
 ```bash
-npm run dev          # start local dev server
-npm run build        # production build
-npm run lint         # eslint
-npm test             # run tests
-npm run test:watch   # watch tests
+npm run dev          # 启动本地开发服务器
+npm run build        # 生产环境构建
+npm run lint         # eslint 检查
+npm test             # 运行测试
+npm run test:watch   # 监听模式运行测试
 ```
 
-## Privacy And Safety
+## 隐私与安全
 
-- `.env.local` is ignored by Git and should never be committed.
-- User-provided API keys are stored in the browser, not in the repository.
-- Board members are AI simulations based on public-facing ideas and writing styles.
-- Generated debate is for reflection and decision support only. It is not legal, medical, financial, or professional advice.
+- `.env.local` 已被 Git 忽略，绝不应提交。
+- 用户提供的 API key 存储在浏览器中，而非仓库里。
+- 董事会成员是基于公开的观点与写作风格所做的 AI 模拟。
+- 生成的辩论仅供反思与决策支持之用，不构成法律、医疗、财务或专业建议。
 
-## Status
+## 当前状态
 
-This is an experimental decision-support interface. The core experience is working:
+这是一个实验性的决策支持界面。核心体验已经可用：
 
-- profile onboarding
-- board recommendation
-- board adjustment
-- bilingual interface
-- real multi-round debate
-- user-guided continuation
-- persisted debate state
-- DeepSeek integration
+- 画像引导填写
+- 董事会推荐
+- 董事会调整
+- 双语界面
+- 真正的多轮辩论
+- 用户引导的续辩
+- 持久化的辩论状态
+- DeepSeek 集成
 
-## Built For
+## 为谁而做
 
-People who do not want a single answer.
+为那些不想要单一答案的人。
 
-People who want their assumptions challenged before a consequential decision.
+为那些希望在做出重大决策之前，让自己的假设受到挑战的人。
 
-People who think better when strong perspectives collide.
+为那些在强烈观点的碰撞中能更好思考的人。
